@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 40px 20px;
+  background: white;
+  color: #333333;
+  font-family: monospace;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.table-wrapper{
+  border: 2px solid black; 
+  border-radius: 1px;
+}
+
+table{
+  width: 100%;
+  min-width: 500px;
+}
+
+th, td{
+  padding: 15px 15px;
+}
+
+.plan-name{
+  display: block;
+  font-size: 19px;
+  margin-bottom: 8px;
+}
+
+.recommended{
+  background: lightblue;
+}
+
+.check{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.limited{
+  font-size: 13px;
+}
+
+.recommended1{
+  background: #f2f2f2;
+}
